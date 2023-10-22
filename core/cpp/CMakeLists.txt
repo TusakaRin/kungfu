@@ -1,2 +1,4 @@
+include(CMakePrintHelpers)
+cmake_print_variables(KF_EXTENSIONS_BUILD_DIR)
 ADD_SUBDIRECTORY(yijinjing)
 ADD_SUBDIRECTORY(wingchun)

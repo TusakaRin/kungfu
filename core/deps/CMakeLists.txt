@@ -1,4 +1,7 @@
 PROJECT(kungfu-deps)
+include(CMakePrintHelpers)
+cmake_print_variables(KF_EXTENSIONS_BUILD_DIR)
+cmake_print_variables(KFC_INSTALL_RPATH)
 
 ############################################################
 
